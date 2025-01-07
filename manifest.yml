@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: nginxxxx
+spec:
+  containers:
+    - name: zafar
+      image: nginx
+      ports:
+        - containerPort: 80
